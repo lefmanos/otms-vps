@@ -1,4 +1,4 @@
-# OB_onetwo
+# otms-vps
 This project is heavily based on [openvpn bonding](https://github.com/onemarcfifty/openvpn-bonding) from [onemarcfifty](https://github.com/onemarcfifty)
 
 Run client/reconf.sh on client for interactive configuration.
