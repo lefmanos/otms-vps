@@ -1,0 +1,60 @@
+# configuration for the client bond scripts
+# change the number of tunnels here
+# and also you might need to change the interface names
+# this needs to be the same on Server and Client
+
+numberOfTunnels=2
+
+<<<<<<< HEAD
+tunnelInterface1=wlan0
+tunnelInterface2=eth0
+tunnelInterface3=eth1
+=======
+tunnelInterface1=enp2s0
+tunnelInterface2=enp0s18f2u3
+tunnelInterface3=enp0s18f2u3
+>>>>>>> dev
+tunnelInterface4=wlan1
+
+# the bondingMode decides how the load is spread over the interfaces
+# mode=0 (Balance Round Robin)
+# mode=1 (Active backup)
+# mode=2 (Balance XOR)
+# mode=3 (Broadcast)
+# mode=4 (802.3ad)
+# mode=5 (Balance TLB)
+# mode=6 (Balance ALB)
+# this needs to be the same on Server and client
+
+bondingMode=0
+<<<<<<< HEAD
+
+# you will need to change this as well.
+# this is the name or IP address of your VPN Server
+# alternatively you can just make an entry in /etc/hosts
+=======
+>>>>>>> dev
+
+# you will need to change this as well.
+# this is the name or IP address of your VPN Server
+# alternatively you can just make an entry in /etc/hosts
+
+<<<<<<< HEAD
+# You probably do not need to change any of these
+=======
+vpnServer=123.3424.5445.345
+
+# You probably do not need to change any of these
+
+bondInterface=bond0
+ipTrunk="10.8.0"
+ipMask="255.255.255.0"
+bondIP="${ipTrunk}.253"
+remoteBondIP="${ipTrunk}.254"
+>>>>>>> dev
+
+bondInterface=bond0
+ipTrunk="10.8.0"
+ipMask="255.255.255.0"
+bondIP="${ipTrunk}.253"
+remoteBondIP="${ipTrunk}.254"
