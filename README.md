@@ -1,6 +1,4 @@
 # OB_onetwo
-This is a project forked from https://github.com/onemarcfifty/openvpn-bonding
-
 This project is heavily based on [openvpn bonding](https://github.com/onemarcfifty/openvpn-bonding) from [onemarcfifty](https://github.com/onemarcfifty)
 
 Run client/reconf.sh on client for interactive configuration
